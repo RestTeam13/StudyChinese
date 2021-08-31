@@ -1,0 +1,283 @@
+
+.search-result-block{
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 40px;
+}
+
+.search-result__title {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.title-chinese {
+    font-size: 36px;
+    font-family: "Nunito";
+    color: rgb(44, 44, 56);
+    line-height: 1.722;
+    font-weight: 300;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.title-sadness-panda {
+    margin-right: 30px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.title-chinese span {
+    font-weight: 800;
+}
+
+.title-text {
+    display: flex;
+    flex-flow: wrap;
+    width: 80%;
+}
+
+.title-sadness {
+    font-size: 24px;
+    font-family: "Nunito";
+    color: rgb(75, 70, 90);
+    line-height: 1.25;
+    display: flex;
+    font-weight: 600;
+    height: max-content;
+}
+
+.title-search {
+    font-size: 16px;
+    font-family: "Nunito";
+    color: rgb(54, 169, 224);
+    font-weight: bold;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    height: max-content;
+}
+
+.title-search:after {
+    width: 8px;
+    height: 8px;
+    margin-left: 25px;
+    content: "";
+    background: url("../images/content/search-result/pointer.png");
+
+}
+
+.title-search:hover {
+    color: #954090;
+    transition: 0.3s all ease-in-out;
+}
+
+.lessons-found {
+    display: flex;
+    flex-flow: column;
+    margin-top: 20px;
+}
+
+.lessons-found__in {
+    font-size: 12px;
+    font-family: "Nunito";
+    color: rgb(138, 135, 147);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.lessons-found__text {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Nunito";
+    color: rgb(44, 44, 56);
+    width: max-content;
+    font-weight: 600;
+
+}
+
+.lessons-found__show {
+    font-size: 12px;
+    font-family: "Nunito";
+    color: rgb(75, 70, 90);
+    border-bottom: 1px dotted rgb(75, 70, 90);
+    width: max-content;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.lessons-found__show:hover {
+    color: rgb(54, 169, 224);
+    border-bottom-color: rgb(54, 169, 224);
+    transition: 0.3s all ease-in-out;
+}
+
+.found-text__title {
+    font-size: 12px;
+    font-family: "Nunito";
+    color: rgb(138, 135, 147);
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.found-text__training {
+    font-size: 14px;
+    font-family: "PT Sans", sans-serif;
+    color: rgb(75, 70, 90);
+    font-weight: 500;
+    line-height: 1.571;
+    text-align: left;
+    width: 48%;
+    margin-top: 15px;
+
+}
+
+.found-text__training span {
+    color: #954090;
+    font-weight: 800;
+}
+
+.users {
+    margin-bottom: 35px;
+}
+
+.users-teacher {
+    font-size: 12px;
+    font-family: "Nunito";
+    color: rgb(138, 135, 147);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.user {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.users-avatar {
+
+    margin-right: 15px;
+}
+
+.users-name {
+    font-size: 20px;
+    font-family: "Nunito";
+    color: rgb(44, 44, 56);
+    font-weight: bold;
+    width: max-content;
+}
+
+
+.users-pro {
+    width: 35px;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.users-show {
+    font-size: 12px;
+    font-family: "Nunito";
+    color: rgb(75, 70, 90);
+}
+
+@media (max-width: 767px) {
+
+    .title-chinese {
+        font-size: 24px;
+        font-family: "Nunito";
+        color: rgb(44, 44, 56);
+    }
+
+    .title-sadness-panda {
+        width: 50px;
+        height: 50px;
+    }
+
+    .title-text {
+        width: 70%;
+    }
+
+    .title-sadness {
+        font-size: 15px;
+        font-family: "Nunito";
+        color: rgb(75, 70, 90);
+        margin-bottom: 15px;
+    }
+
+    .title-search {
+        font-size: 14px;
+        font-family: "Nunito";
+        color: rgb(54, 169, 224);
+    }
+
+    .pointer {
+        margin-left: 10px;
+    }
+
+    .lessons-found {
+        width: 100%;
+    }
+
+    .lessons-found__in {
+        font-size: 12px;
+        font-family: "Nunito";
+        color: rgb(138, 135, 147);
+        margin-top: 40px;
+    }
+
+    .lessons-found__text {
+        font-size: 12px;
+        font-family: "Nunito";
+        color: rgb(75, 70, 90);
+        width: fit-content;
+    }
+
+    .lessons-found__show {
+        font-size: 12px;
+        font-family: "Nunito";
+        color: rgb(75, 70, 90);
+    }
+
+    .found-text__title {
+        font-size: 12px;
+        font-family: "Nunito";
+        color: rgb(138, 135, 147);
+    }
+
+    .found-text__training {
+        font-size: 13px;
+        font-family: "PT Sans";
+        color: rgb(75, 70, 90);
+        width: 100%;
+    }
+
+    .users-teacher {
+        font-size: 12px;
+        font-family: "Nunito";
+        color: rgb(138, 135, 147);
+    }
+
+    .users-name {
+        font-size: 16px;
+        font-family: "Nunito";
+        color: rgb(44, 44, 56);
+    }
+
+    .users-pro {
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'SimHei';
+    src: url('fonts/SimHei.eot');
+    src: url('fonts/SimHei.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SimHei.woff2') format('woff2'),
+    url('fonts/SimHei.woff') format('woff'),
+    url('fonts/SimHei.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kozuka Gothic Pr6N';
+    src: url('fonts/KozGoPr6N-Regular-AlphaNum.eot');
+    src: url('fonts/KozGoPr6N-Regular-AlphaNum.eot?#iefix') format('embedded-opentype'),
+    url('fonts/KozGoPr6N-Regular-AlphaNum.woff2') format('woff2'),
+    url('fonts/KozGoPr6N-Regular-AlphaNum.woff') format('woff'),
+    url('fonts/KozGoPr6N-Regular-AlphaNum.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

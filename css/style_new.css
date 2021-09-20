@@ -20972,6 +20972,63 @@
   width: 100%;
 }
 
+.start {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-family: Nunito, sans-serif;
+}
+
+.start-title {
+  margin-top: 56px;
+  max-width: 811px;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: #2c2c38;
+  margin-bottom: 43px;
+}
+
+.start-title_up {
+  font-size: 85px;
+  font-weight: 900;
+  letter-spacing: -1.7px;
+  line-height: 64px;
+  width: 70%;
+  text-align: center;
+}
+
+.start-subtitle {
+  margin-top: 20px;
+  font-size: 28px;
+  letter-spacing: -0.6px;
+}
+
+.start-main {
+  background: url("../images/content/start/start_bg.png") no-repeat center;
+  background-size: contain;
+  width: 100%;
+  padding: 60px 0;
+}
+
+.start-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.start-email {
+  margin-top: 60px;
+}
+
+.start-btn {
+  margin-top: 23px;
+}
+
 .only-mobile {
   display: none;
 }

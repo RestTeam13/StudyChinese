@@ -21605,6 +21605,7 @@
 .error-page-block__img-panda {
   width: 100%;
 }
+@import "style_fastik";
 
 .only-mobile {
   display: none;
@@ -21612,6 +21613,7 @@
     display: unset;
   }
 }
+
 
 @keyframes changeCardLeft {
   0% {

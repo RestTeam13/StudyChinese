@@ -21050,12 +21050,29 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+  position: relative;
 }
 @media (max-width: 767px) {
   .start-main {
     max-width: 320px;
     width: 100%;
     padding: 30px 0 40px;
+  }
+}
+
+.start-bg {
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 38px;
+}
+.start-bg img {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .start-bg {
+    display: none;
   }
 }
 

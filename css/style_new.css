@@ -21035,11 +21035,11 @@
 
 .block {
   margin: 0 auto;
+  padding: 0 20px;
 }
 .block__start {
   background: url("../images/content/start/start_bg.png") no-repeat center;
   background-size: cover;
-  padding: 0 20px;
 }
 
 .start-main {
@@ -21212,6 +21212,15 @@
 
 .start-btn {
   margin-top: 23px;
+}
+
+.block__work {
+  max-width: 1100px;
+  width: 100%;
+}
+
+.personal-account-block__work {
+  background: unset;
 }
 
 .only-mobile {

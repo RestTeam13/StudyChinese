@@ -21583,6 +21583,240 @@
   padding-right: 25px;
 }
 
+.teaching-methods {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.teaching-methods__title {
+  font-size: 85px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+}
+
+.teaching-methods__course {
+  font-size: 28px;
+  font-family: "Nunito";
+  color: #2c2c38;
+}
+
+.start-training {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.start-training-background {
+  position: absolute;
+  z-index: -1;
+  top: 42px;
+}
+
+.start-training__img {
+  width: 465px;
+  height: 246px;
+}
+
+.start-training__activity {
+  font-size: 18px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+  width: 70%;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.start-training__button {
+  font-size: 18px;
+  font-family: "Nunito";
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #28aae2;
+  width: 256px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 63px;
+}
+
+.choice {
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.choice__button {
+  font-size: 20px;
+  font-family: "Nunito";
+  color: #8a8793;
+  font-weight: 800;
+  border: 3px solid #e7ebee;
+  border-radius: 10px;
+  background-color: white;
+  width: 256px;
+  height: 65px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.choice__button:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background: url("") no-repeat;
+  padding-left: 15px;
+}
+
+.choice__button_active {
+  border-color: #b168ad;
+  color: #b168ad;
+}
+
+.choice__button_adults:before {
+  background-image: url("../images/content/teacher-office/choice-adult-panda.png");
+}
+
+.choice__button_children:before {
+  background-image: url("../images/content/teacher-office/choice-children-panda.png");
+}
+
+.adult-education {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 43px;
+}
+
+.adult-education__text {
+  font-size: 22px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+  padding-left: 100px;
+  width: 70%;
+}
+.adult-education__text span {
+  font-size: 30px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+  display: block;
+}
+
+.information-children {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-content-block {
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  border: 2px solid #f0f1f2;
+  border-radius: 30px;
+  background-color: white;
+  width: 535px;
+  height: 325px;
+  margin: 10px;
+  flex-direction: column;
+  padding: 50px 19px 0 105px;
+}
+
+.info-content-block__img {
+  position: absolute;
+  top: 40px;
+  left: 18px;
+}
+
+.info-content-block__img_hourglass {
+  left: 45px;
+}
+
+.info-content-block__title {
+  font-size: 30px;
+  font-family: "Nunito";
+  color: #954090;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.info-content-block__text {
+  font-size: 15px;
+  font-family: "PTSans";
+  color: #4b465a;
+  line-height: 1.467;
+  margin-top: 15px;
+}
+
+.easy-learning {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.easy-learning__title {
+  font-size: 55px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+}
+
+.info-content-block_training {
+  border: none;
+  height: 100%;
+  padding-top: 0;
+  position: relative;
+}
+
+.info-content-block__text_training {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.info-content-block_training_line {
+  background-color: #e5eaec;
+  width: 254px;
+  height: 1px;
+}
+
+.info-content-block__img_training {
+  top: -5px;
+}
+
+.games-chinese__text {
+  font-size: 13px;
+  font-family: "Nunito";
+  color: #8a8793;
+  font-weight: bold;
+  line-height: 1.692;
+  border: none;
+  margin-right: 4px;
+}
+
+.first-month-block__row_training-manual {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 60px;
+}
+
+.first-month-block__content_training-manual {
+  width: 50%;
+}
+
+.try-training-manual {
+  max-width: 100%;
+}
+
 .only-mobile {
   display: none;
 }

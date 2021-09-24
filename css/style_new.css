@@ -21109,10 +21109,10 @@
 .start-element:hover .start-element_block-img_wrapper {
   background-color: #e0e5f1;
 }
-.start-element:hover .start-element_text {
+.start-element:hover .start-element__text {
   color: #a9b1c5;
 }
-.start-element:hover .start-element_text span {
+.start-element:hover .start-element__text span {
   color: #a9b1c5;
 }
 
@@ -21143,7 +21143,7 @@
   }
 }
 
-.start-element_text {
+.start-element__text {
   color: #2c2c38;
   font-size: 20px;
   letter-spacing: -0.4px;
@@ -21151,12 +21151,12 @@
   margin-top: 14px;
   transition: ease-in-out all 0.3s;
 }
-.start-element_text span {
+.start-element__text span {
   color: #954090;
   transition: ease-in-out all 0.3s;
 }
 @media (max-width: 767px) {
-  .start-element_text {
+  .start-element__text {
     margin: 0 0 0 17px;
   }
 }
@@ -21500,11 +21500,6 @@
   flex-flow: column;
   align-items: center;
 }
-.work-team .start-row {
-  max-width: 1100px;
-  margin-top: 64px;
-  align-items: start;
-}
 .work-team .start-element {
   max-width: 239px;
   width: 100%;
@@ -21513,14 +21508,17 @@
 .work-team .start-element:nth-child(1) {
   max-width: 210px;
 }
-.work-team .start-element_text {
+.work-team .start-element:nth-child(1) .start-element__text p:after {
+  display: none;
+}
+.work-team .start-element__text {
   font-size: 24px;
   letter-spacing: -0.48px;
   font-weight: 900;
   display: flex;
   position: relative;
 }
-.work-team .start-element_text :after {
+.work-team .start-element__text :after {
   content: "";
   background: url("../images/content/work/work-team_arrow.svg") no-repeat center;
   background-size: contain;
@@ -21530,14 +21528,24 @@
   top: 12px;
   left: -35px;
 }
-.work-team .start-element_text p {
+.work-team .start-element__text p {
   margin-top: 3px;
   margin-left: 10px;
 }
-.work-team .start-element_text span {
+.work-team .start-element__text span {
   color: #954090;
   font-size: 30px;
   font-weight: 900;
+  margin-right: 10px;
+}
+.work-team .start-row {
+  max-width: 1100px;
+  margin-top: 64px;
+  align-items: start;
+}
+
+.work-team .start-element__text_first:after {
+  display: none;
 }
 
 .work-team__title {

@@ -646,6 +646,9 @@
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
+  @media(max-width: 767px) {
+    margin-top: 30px;
+  }
 }
 
 .teaching-methods__title {
@@ -653,6 +656,9 @@
   font-family: "Nunito";
   color: rgb(44, 44, 56);
   font-weight: bold;
+  @media(max-width: 767px) {
+    font-size: 27px;
+  }
 }
 
 .teaching-methods__course {
@@ -668,15 +674,24 @@
   align-items: center;
   position: relative;
 }
-.start-training-background{
+
+.start-training-background {
   position: absolute;
   z-index: -1;
   top: 42px;
+  @media(max-width: 767px) {
+    width: 767px;
+    height: 255px;
+  }
 }
 
 .start-training__img {
   width: 465px;
   height: 246px;
+  @media(max-width: 767px) {
+    width: 221px;
+    height: 116px;
+  }
 }
 
 .start-training__activity {
@@ -687,6 +702,10 @@
   width: 70%;
   padding-bottom: 25px;
   padding-top: 25px;
+  @media(max-width: 767px) {
+    font-size: 14px;
+    width: unset;
+  }
 }
 
 .start-training__button {
@@ -702,6 +721,10 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 63px;
+  @media(max-width: 767px) {
+    width: 320px;
+    height: 44px;
+  }
 }
 
 .choice {
@@ -734,6 +757,22 @@
     background-size: contain;
     background: url("") no-repeat;
     padding-left: 15px;
+
+  }
+
+  @media(max-width: 767px) {
+    font-size: 15px;
+    border-width: 2px;
+    width: 156px;
+    height: 44px;
+    margin-right: 13px;
+    &:before {
+      width: 24px;
+      height: 24px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
+
   }
 }
 
@@ -744,7 +783,6 @@
 
 .choice__button_adults:before {
   background-image: url("../images/content/teacher-office/choice-adult-panda.png");
-
 }
 
 .choice__button_children:before {
@@ -755,6 +793,9 @@
   display: flex;
   justify-content: flex-end;
   padding-bottom: 43px;
+  @media(max-width: 767px) {
+    padding-bottom: 5px;
+  }
 }
 
 .adult-education__text {
@@ -772,11 +813,29 @@
     font-weight: bold;
     display: block;
   }
+
+  @media(max-width: 767px) {
+    font-size: 14px;
+    padding-left: 26px;
+    span {
+      font-size: 20px;
+
+    }
+  }
 }
 
-.information-children {
+
+.adult-education__img {
+  @media(max-width: 767px) {
+    width: 70px;
+    height: 90px;
+  }
+}
+
+.information {
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .info-content-block {
@@ -785,21 +844,38 @@
   position: relative;
   border: 2px solid #f0f1f2;
   border-radius: 30px;
-  background-color: white;
-  width: 535px;
-  height: 325px;
+  background-color: rgb(255, 255, 255);
+  width: 47%;
   margin: 10px;
   flex-direction: column;
-  padding: 50px 19px 0 105px;
+  padding: 50px 19px 50px 105px;
+  @media(max-width: 767px) {
+    border-color: #f0f1f2;
+    border-radius: 25px;
+    width: 324px;
+    padding: 20px 11px 30px 28px;
+    flex-flow: wrap;
+    align-items: center;
+  }
 }
 
 .info-content-block__img {
   position: absolute;
   top: 40px;
   left: 18px;
+  @media(max-width: 767px) {
+    height: 42px;
+    position: unset;
+    width: 35px;
+  }
 }
-.info-content-block__img_hourglass{
+
+.info-content-block__img_hourglass {
   left: 45px;
+  @media(max-width: 767px) {
+    width: 21px;
+    height: 37px;
+  }
 }
 
 .info-content-block__title {
@@ -808,6 +884,11 @@
   color: #954090;
   font-weight: 800;
   line-height: 1;
+  @media(max-width: 767px) {
+    font-size: 20px;
+    width: 79%;
+    margin-left: 18px;
+  }
 }
 
 .info-content-block__text {
@@ -816,6 +897,10 @@
   color: #4b465a;
   line-height: 1.467;
   margin-top: 15px;
+  @media(max-width: 767px) {
+    font-size: 14px;
+    line-height: 1.2;
+  }
 }
 
 .easy-learning {
@@ -829,6 +914,12 @@
   font-family: "Nunito";
   color: rgb(44, 44, 56);
   font-weight: bold;
+  @media(max-width: 767px) {
+    font-size: 27px;
+    margin-top: -45px;
+    margin-bottom: -30px;
+
+  }
 }
 
 .info-content-block_training {
@@ -836,17 +927,28 @@
   height: 100%;
   padding-top: 0;
   position: relative;
+  @media(max-width: 767px) {
+    padding: 0;
+  }
 }
 
 .info-content-block__text_training {
   padding-bottom: 5px;
   padding-top: 5px;
+  @media(max-width: 767px) {
+    font-size: 14px;
+  }
 }
-.info-content-block_training_line{
-    background-color: rgb(229, 234, 236);
-    width: 254px;
-    height: 1px;
+
+.info-content-block_training_line {
+  background-color: rgb(229, 234, 236);
+  width: 254px;
+  height: 1px;
+  @media(max-width: 767px) {
+    margin-top: 25px;
+  }
 }
+
 .info-content-block__img_training {
   top: -5px;
 }
@@ -860,14 +962,26 @@
   border: none;
   margin-right: 4px;
 }
-.first-month-block__row_training-manual{
-  display: flex;
-  align-items: flex-start;
-  padding-top: 60px;
-}
-.first-month-block__content_training-manual{
-  width: 50%;
-}
-.try-training-manual{
+
+.try-training-manual {
   max-width: 100%;
 }
+
+.info-content-block__text_children {
+  padding-right: 30px;
+  @media(max-width: 767px) {
+    font-size: 14px;
+    font-family: "PTSans";
+    color: #4b465a;
+    line-height: 1;
+  }
+}
+
+.info-content-block__img_sensitive-teachers {
+  left: 8px;
+  @media(max-width: 767px) {
+    top: 7px;
+    left: 26px;
+  }
+}
+

@@ -21605,7 +21605,11 @@
 .error-page-block__img-panda {
   width: 100%;
 }
+
 @import "style_newlis";
+@import "style_fastik";
+@import "style_step6";
+
 .only-mobile {
   display: none;
   @media (max-width: 767px) {

@@ -60,7 +60,6 @@
 
 .block {
   margin: 0 auto;
-  padding: 0 20px;
   @media (max-width: 767px) {
 
 
@@ -411,7 +410,8 @@
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  padding: 60px 0;
+  padding: 60px 15px;
+  box-sizing: border-box;
   @media (max-width: 767px) {
     max-width: 320px;
     width: 100%;
@@ -835,7 +835,7 @@
   background: unset;
   position: relative;
 
-  &:after {
+  &:before {
     content: "";
     background: url("../images/content/work/work-team.png") no-repeat center;
     width: 2181px;
@@ -848,7 +848,7 @@
 
   @media (max-width: 767px) {
     max-width: 320px;
-    &:after {
+    &:before {
       display: none;
     }
 
@@ -870,9 +870,6 @@
     &:nth-child(1) {
       max-width: 210px;
 
-      & .start-element__text p:after {
-        display: none;
-      }
     }
   }
 
@@ -883,7 +880,7 @@
     display: flex;
     position: relative;
 
-    & :after {
+    &:after {
       content: "";
       background: url("../images/content/work/work-team_arrow.svg") no-repeat center;
       background-size: contain;
@@ -891,14 +888,13 @@
       height: 14px;
       position: absolute;
       top: 12px;
-      left: -35px;
+      left: -30px;
+      @media (max-width: 767px) {
+        display: none;
 
+      }
     }
 
-    & p {
-      margin-top: 3px;
-      margin-left: 10px;
-    }
 
     & span {
       color: #954090;
@@ -910,6 +906,11 @@
     }
 
   }
+  .start-element:nth-child(1) {
+    .start-element__text:after {
+      display: none;
+    }
+  }
 
   & .start-row {
     max-width: 1100px;
@@ -920,18 +921,19 @@
 
   @media (max-width: 767px) {
     margin-top: 40px;
-    & .start-row {
+    .start-row {
       flex-flow: row wrap;
       margin-top: 10px;
     }
-    & .start-element {
+    .start-element {
       flex-flow: column;
       width: 47%;
       margin: 15px 0 0 0;
       align-self: center;
 
+
     }
-    & .start-element__text {
+    .start-element__text {
       font-size: 18px;
       line-height: 24px;
       margin: 0;
@@ -939,12 +941,8 @@
       & span {
         font-size: 24px;
       }
-
     }
-
-
   }
-
 }
 
 .work-team__title {

@@ -515,10 +515,10 @@
 
     <!-- Conversation -->
     <div class="conversation">
-        <div class="block">
+        <div class="block block_tl">
             <div class="conversation-title__part">
                 <h1 class="conversation-title">Китайский с преподавателем онлайн</h1>
-                <div class="conversation-subtitle">Живая практика языка и комплексная программа обучения</div>
+                <p class="conversation-subtitle">Живая практика языка и комплексная программа обучения</p>
                 <div class="types-menu">
                     <div class="active-bg"></div>
                     <div class="types-menu__item">Для взрослых</div>
@@ -527,29 +527,46 @@
                 </div>
             </div>
         </div>
-        <div class="block block__work-bg">
-            <div class="conversation-form__row">
-                <div class="conversation-form__column">
-                    <h3 class="conversation-form__column-title">Первое занятие
-                        полностью бесплатно</h3>
-                    <form class="conversation-form">
-                        <button class="conversation-form__btn btn__purple">Записаться</button>
-                        <p class="conversation-form__under-btn">Отправляя запрос Вы соглашаетесь на обработку
-                            персональных данных</p>
-                    </form>
-                </div>
-                <div class="conversation-form__column">
-                    <p class="conversation-form__text"></p>
-                    <div class="conversation-form__img">
-                        <div class=""></div>
-                        img
+        <div class="block block_bg">
+            <div class="block__content">
+                <div class="conversation-form__row">
+                    <div class="conversation-form__column">
+                        <h3 class="conversation-form__column-title">Первое занятие
+                            полностью <span>бесплатно</span>
+                        </h3>
+                        <form class="conversation-form">
+                            <div class="conversation-form__input-row">
+                                <p class="conversation-form__sticker">Ваше имя</p>
+                                <input type="text" class="conversation-form__input">
+                                <p class="conversation-form__sticker-down">Пожалуйста представьтесь</p>
+                            </div>
+                            <div class="conversation-form__input-row">
+                                <p class="conversation-form__sticker">Номер телефона</p>
+                                <input type="tel" class="conversation-form__input">
+                                <p class="conversation-form__sticker-down">Укажите коректно, на этот номер придет подверждение</p>
+                            </div>
+                            <div class="conversation-form__input-row">
+                                <p class="conversation-form__sticker">Ваш email</p>
+                                <input type="email" class="conversation-form__input">
+
+                            </div>
+                            <button class="conversation-form__btn btn__purple">Записаться</button>
+                            <p class="conversation-form__under-btn">Отправляя запрос Вы соглашаетесь на обработку
+                                персональных данных</p>
+                        </form>
+                    </div>
+                    <div class="conversation-form__column">
+                        <p class="conversation-form__text">В ходе первого занятия мы покажем вам, как у нас
+                            проходят уроки, определим ваш уровень китайского и зададим
+                            цели обучения.</p>
+                        <div class="conversation-form__img">
+                            <img src="images/content/conversation/conversation-form_column-img.png" alt="">
+                        </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
-        <div class="block">
+        <div class="block block_tl">
             <div class="conversation-select">
                 <div class="conversation-select__row">
 
@@ -595,7 +612,7 @@
                         <input type="text" class="conversation-select__input-text">
                         <p class="conversation-select__checkbox-sticker_green">Промокод со скидкой на 10% применён</p>
                     </div>
-
+                </form>
             </div>
             <div class="conversation-tariff">
                 <div class="conversation-tariff__element">
@@ -749,7 +766,8 @@
                             <p class="conversation-teachers__rating-text">897 оценок</p>
                         </div>
                         <p class="conversation-teachers__name">Олег Викторов</p>
-                        <p class="conversation-teachers__info">Большой опыт работы более 15 лет, высшее образование Китай</p>
+                        <p class="conversation-teachers__info">Большой опыт работы более 15 лет, высшее образование
+                            Китай</p>
 
                     </div>
                     <div class="conversation-teachers__element">
@@ -871,7 +889,7 @@
                 <button class="work-team__btn">Записаться</button>
             </div>
         </div>
-        <div class="block">
+        <div class="block block_tl">
             <div class="work-video">
                 <h3 class="work-video__title">
                     Как учатся взрослые
@@ -890,34 +908,43 @@
 
                     <div class="useful-block__items">
                         <div class="useful-block__item">
-                            <div class="useful-block__item--icon"><img src="images/icons/useful-1.svg" alt="" /></div>
+                            <div class="useful-block__item--icon"><img src="images/icons/useful-1.svg" alt=""/></div>
                             <div class="useful-block__item--description">
                                 <p class="useful-block__item--title">Словарь</p>
-                                <p>Первая версия нашего словаря появилась в 2011 году, и с тех пор мы постоянно работали над его улучшениями. Сейчас это не просто словарь – это тренажер по запоминанию слов и выражений, множеством возможностей </p>
+                                <p>Первая версия нашего словаря появилась в 2011 году, и с тех пор мы постоянно работали
+                                    над его улучшениями. Сейчас это не просто словарь – это тренажер по запоминанию слов
+                                    и выражений, множеством возможностей </p>
                             </div>
                         </div>
 
                         <div class="useful-block__item">
-                            <div class="useful-block__item--icon"><img src="images/icons/useful-2.svg" alt="" /></div>
+                            <div class="useful-block__item--icon"><img src="images/icons/useful-2.svg" alt=""/></div>
                             <div class="useful-block__item--description">
                                 <p class="useful-block__item--title">Упражнения и тесты</p>
-                                <p>Помимо сотен упражнений и тестов, встроенных в онлайн уроки, мы предоставляем возможность тренировать определенные темы, вызывающие наибольшие затруднения отдельно. Удобный классификатор тем ждет вас.</p>
+                                <p>Помимо сотен упражнений и тестов, встроенных в онлайн уроки, мы предоставляем
+                                    возможность тренировать определенные темы, вызывающие наибольшие затруднения
+                                    отдельно. Удобный классификатор тем ждет вас.</p>
                             </div>
                         </div>
 
                         <div class="useful-block__item">
-                            <div class="useful-block__item--icon"><img src="images/icons/useful-3.svg" alt="" /></div>
+                            <div class="useful-block__item--icon"><img src="images/icons/useful-3.svg" alt=""/></div>
                             <div class="useful-block__item--description">
                                 <p class="useful-block__item--title">Грамматика</p>
-                                <p>Для любителей порыться в структуре языка, мы предлагаем онлайн учебник по грамматике с сотнями примеров употребления, кросс ссылками на тесты и упражнения, написанный понятным человеческим языком.</p>
+                                <p>Для любителей порыться в структуре языка, мы предлагаем онлайн учебник по грамматике
+                                    с сотнями примеров употребления, кросс ссылками на тесты и упражнения, написанный
+                                    понятным человеческим языком.</p>
                             </div>
                         </div>
 
                         <div class="useful-block__item">
-                            <div class="useful-block__item--icon"><img src="images/icons/useful-4.svg" alt="" /></div>
+                            <div class="useful-block__item--icon"><img src="images/icons/useful-4.svg" alt=""/></div>
                             <div class="useful-block__item--description">
                                 <p class="useful-block__item--title">Изучаем Китай</p>
-                                <p>За 13 лет существования проекта нами был написан ни один десяток статей и собрано множество материала по истории, культуре и традициям Китая. Туризм и достопримечательности вносят в этот раздел нотки современности и призывают к путешествиям.</p>
+                                <p>За 13 лет существования проекта нами был написан ни один десяток статей и собрано
+                                    множество материала по истории, культуре и традициям Китая. Туризм и
+                                    достопримечательности вносят в этот раздел нотки современности и призывают к
+                                    путешествиям.</p>
                                 <div class="useful-block__item--tags">
                                     <a href="#">Высказывания Конфуция</a>
                                     <a href="#">Китайские пословицы и поговорки</a>
@@ -928,10 +955,12 @@
                         </div>
 
                         <div class="useful-block__item">
-                            <div class="useful-block__item--icon"><img src="images/icons/useful-5.svg" alt="" /></div>
+                            <div class="useful-block__item--icon"><img src="images/icons/useful-5.svg" alt=""/></div>
                             <div class="useful-block__item--description">
                                 <p class="useful-block__item--title">Игры на китайском</p>
-                                <p>Играть и одновременно учить китайский язык – это реальность. Каждая игра уникальна и интересна, а возможность соревноваться с другими учениками делает процесс еще более увлекательным. Играйте и учитесь с нами!</p>
+                                <p>Играть и одновременно учить китайский язык – это реальность. Каждая игра уникальна и
+                                    интересна, а возможность соревноваться с другими учениками делает процесс еще более
+                                    увлекательным. Играйте и учитесь с нами!</p>
                                 <div class="useful-block__item--tags">
                                     <a href="#">Панда-тренер</a>
                                     <a href="#">Составь предложение</a>
@@ -946,7 +975,7 @@
                         </div>
                     </div>
 
-                    <div class="useful-block__image"><img src="images/icons/figure-3.svg" alt="" /></div>
+                    <div class="useful-block__image"><img src="images/icons/figure-3.svg" alt=""/></div>
                 </div>
             </div>
             <div class="conversation-reviews">
@@ -958,8 +987,8 @@
                             <div class="reviews-item swiper-slide">
                                 <div class="reviews-item__contain">
                                     <div class="reviews-item__image">
-                                        <img src="images/content/review-1.png" alt="" />
-                                        <div class="reviews-item__social"><img src="images/icons/fb.png" alt="" /></div>
+                                        <img src="images/content/review-1.png" alt=""/>
+                                        <div class="reviews-item__social"><img src="images/icons/fb.png" alt=""/></div>
                                     </div>
                                     <div class="reviews-item__content">
                                         <div class="reviews-item__title">
@@ -970,24 +999,36 @@
                                             <p class="reviews-item__name">Виктория Орлова</p>
                                         </div>
                                         <div class="reviews-item__rate">
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <span class="reviews-item__rate--num">5.0 из 5.0</span><br />
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <span class="reviews-item__rate--num">5.0 из 5.0</span><br/>
                                             <span class="reviews-item__rate--title">Оценка услуги</span>
                                         </div>
                                         <div class="reviews-item__text">
-                                            <p>Каждое произведение искусства непременно должно рассматриваться в отношении к эпохе, к исторической современности и в отношении художника к обществу; рассмотрение его жизни, характера также может служить часто уяснению его создания. <span class="desktop">С другой стороны, невозможно упускать из виду и собственно эстетических требований искусства</span></p>
+                                            <p>Каждое произведение искусства непременно должно рассматриваться в
+                                                отношении к эпохе, к исторической современности и в отношении художника
+                                                к обществу; рассмотрение его жизни, характера также может служить часто
+                                                уяснению его создания. <span class="desktop">С другой стороны, невозможно упускать из виду и собственно эстетических требований искусства</span>
+                                            </p>
                                         </div>
                                     </div>
 
                                     <button class="reviews-slider-button-prev">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M8.999,15.542 L2.936,8.501 L8.999,1.454 L7.318,-0.000 L0.001,8.501 L7.318,16.998 L8.999,15.542 Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px">
+                                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                                  d="M8.999,15.542 L2.936,8.501 L8.999,1.454 L7.318,-0.000 L0.001,8.501 L7.318,16.998 L8.999,15.542 Z"/>
+                                        </svg>
                                     </button>
                                     <button class="reviews-slider-button-next">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M0.001,15.542 L6.064,8.501 L0.001,1.454 L1.682,-0.000 L8.999,8.501 L1.682,16.998 L0.001,15.542 Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px">
+                                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                                  d="M0.001,15.542 L6.064,8.501 L0.001,1.454 L1.682,-0.000 L8.999,8.501 L1.682,16.998 L0.001,15.542 Z"/>
+                                        </svg>
                                     </button>
                                 </div>
                             </div>
@@ -995,8 +1036,8 @@
                             <div class="reviews-item swiper-slide">
                                 <div class="reviews-item__contain">
                                     <div class="reviews-item__image">
-                                        <img src="images/content/review-2.png" alt="" />
-                                        <div class="reviews-item__social"><img src="images/icons/fb.png" alt="" /></div>
+                                        <img src="images/content/review-2.png" alt=""/>
+                                        <div class="reviews-item__social"><img src="images/icons/fb.png" alt=""/></div>
                                     </div>
                                     <div class="reviews-item__content">
                                         <div class="reviews-item__title">
@@ -1007,24 +1048,36 @@
                                             <p class="reviews-item__name">Олег Савенко</p>
                                         </div>
                                         <div class="reviews-item__rate">
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <span class="reviews-item__rate--num">5.0 из 5.0</span><br />
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <span class="reviews-item__rate--num">5.0 из 5.0</span><br/>
                                             <span class="reviews-item__rate--title">Оценка услуги</span>
                                         </div>
                                         <div class="reviews-item__text">
-                                            <p>Искусства непременно должно рассматриваться в отношении к эпохе, к исторической современности и в отношении художника к обществу; рассмотрение его жизни, характера также может служить часто уяснению его создания. <span class="desktop">С другой стороны, невозможно упускать из виду и собственно эстетических требований искусства</span></p>
+                                            <p>Искусства непременно должно рассматриваться в отношении к эпохе, к
+                                                исторической современности и в отношении художника к обществу;
+                                                рассмотрение его жизни, характера также может служить часто уяснению его
+                                                создания. <span class="desktop">С другой стороны, невозможно упускать из виду и собственно эстетических требований искусства</span>
+                                            </p>
                                         </div>
                                     </div>
 
                                     <button class="reviews-slider-button-prev">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M8.999,15.542 L2.936,8.501 L8.999,1.454 L7.318,-0.000 L0.001,8.501 L7.318,16.998 L8.999,15.542 Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px">
+                                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                                  d="M8.999,15.542 L2.936,8.501 L8.999,1.454 L7.318,-0.000 L0.001,8.501 L7.318,16.998 L8.999,15.542 Z"/>
+                                        </svg>
                                     </button>
                                     <button class="reviews-slider-button-next">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M0.001,15.542 L6.064,8.501 L0.001,1.454 L1.682,-0.000 L8.999,8.501 L1.682,16.998 L0.001,15.542 Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px">
+                                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                                  d="M0.001,15.542 L6.064,8.501 L0.001,1.454 L1.682,-0.000 L8.999,8.501 L1.682,16.998 L0.001,15.542 Z"/>
+                                        </svg>
                                     </button>
                                 </div>
                             </div>
@@ -1032,8 +1085,8 @@
                             <div class="reviews-item swiper-slide">
                                 <div class="reviews-item__contain">
                                     <div class="reviews-item__image">
-                                        <img src="images/content/review-1.png" alt="" />
-                                        <div class="reviews-item__social"><img src="images/icons/fb.png" alt="" /></div>
+                                        <img src="images/content/review-1.png" alt=""/>
+                                        <div class="reviews-item__social"><img src="images/icons/fb.png" alt=""/></div>
                                     </div>
                                     <div class="reviews-item__content">
                                         <div class="reviews-item__title">
@@ -1044,24 +1097,36 @@
                                             <p class="reviews-item__name">Виктория Орлова</p>
                                         </div>
                                         <div class="reviews-item__rate">
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <span class="reviews-item__rate--num">5.0 из 5.0</span><br />
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <span class="reviews-item__rate--num">5.0 из 5.0</span><br/>
                                             <span class="reviews-item__rate--title">Оценка услуги</span>
                                         </div>
                                         <div class="reviews-item__text">
-                                            <p>Каждое произведение искусства непременно должно рассматриваться в отношении к эпохе, к исторической современности и в отношении художника к обществу; рассмотрение его жизни, характера также может служить часто уяснению его создания. <span class="desktop">С другой стороны, невозможно упускать из виду и собственно эстетических требований искусства</span></p>
+                                            <p>Каждое произведение искусства непременно должно рассматриваться в
+                                                отношении к эпохе, к исторической современности и в отношении художника
+                                                к обществу; рассмотрение его жизни, характера также может служить часто
+                                                уяснению его создания. <span class="desktop">С другой стороны, невозможно упускать из виду и собственно эстетических требований искусства</span>
+                                            </p>
                                         </div>
                                     </div>
 
                                     <button class="reviews-slider-button-prev">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M8.999,15.542 L2.936,8.501 L8.999,1.454 L7.318,-0.000 L0.001,8.501 L7.318,16.998 L8.999,15.542 Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px">
+                                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                                  d="M8.999,15.542 L2.936,8.501 L8.999,1.454 L7.318,-0.000 L0.001,8.501 L7.318,16.998 L8.999,15.542 Z"/>
+                                        </svg>
                                     </button>
                                     <button class="reviews-slider-button-next">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M0.001,15.542 L6.064,8.501 L0.001,1.454 L1.682,-0.000 L8.999,8.501 L1.682,16.998 L0.001,15.542 Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px">
+                                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                                  d="M0.001,15.542 L6.064,8.501 L0.001,1.454 L1.682,-0.000 L8.999,8.501 L1.682,16.998 L0.001,15.542 Z"/>
+                                        </svg>
                                     </button>
                                 </div>
                             </div>
@@ -1069,8 +1134,8 @@
                             <div class="reviews-item swiper-slide">
                                 <div class="reviews-item__contain">
                                     <div class="reviews-item__image">
-                                        <img src="images/content/review-2.png" alt="" />
-                                        <div class="reviews-item__social"><img src="images/icons/fb.png" alt="" /></div>
+                                        <img src="images/content/review-2.png" alt=""/>
+                                        <div class="reviews-item__social"><img src="images/icons/fb.png" alt=""/></div>
                                     </div>
                                     <div class="reviews-item__content">
                                         <div class="reviews-item__title">
@@ -1081,24 +1146,36 @@
                                             <p class="reviews-item__name">Олег Савенко</p>
                                         </div>
                                         <div class="reviews-item__rate">
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <span class="reviews-item__rate--num">5.0 из 5.0</span><br />
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <span class="reviews-item__rate--num">5.0 из 5.0</span><br/>
                                             <span class="reviews-item__rate--title">Оценка услуги</span>
                                         </div>
                                         <div class="reviews-item__text">
-                                            <p>Искусства непременно должно рассматриваться в отношении к эпохе, к исторической современности и в отношении художника к обществу; рассмотрение его жизни, характера также может служить часто уяснению его создания. <span class="desktop">С другой стороны, невозможно упускать из виду и собственно эстетических требований искусства</span></p>
+                                            <p>Искусства непременно должно рассматриваться в отношении к эпохе, к
+                                                исторической современности и в отношении художника к обществу;
+                                                рассмотрение его жизни, характера также может служить часто уяснению его
+                                                создания. <span class="desktop">С другой стороны, невозможно упускать из виду и собственно эстетических требований искусства</span>
+                                            </p>
                                         </div>
                                     </div>
 
                                     <button class="reviews-slider-button-prev">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M8.999,15.542 L2.936,8.501 L8.999,1.454 L7.318,-0.000 L0.001,8.501 L7.318,16.998 L8.999,15.542 Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px">
+                                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                                  d="M8.999,15.542 L2.936,8.501 L8.999,1.454 L7.318,-0.000 L0.001,8.501 L7.318,16.998 L8.999,15.542 Z"/>
+                                        </svg>
                                     </button>
                                     <button class="reviews-slider-button-next">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M0.001,15.542 L6.064,8.501 L0.001,1.454 L1.682,-0.000 L8.999,8.501 L1.682,16.998 L0.001,15.542 Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px">
+                                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                                  d="M0.001,15.542 L6.064,8.501 L0.001,1.454 L1.682,-0.000 L8.999,8.501 L1.682,16.998 L0.001,15.542 Z"/>
+                                        </svg>
                                     </button>
                                 </div>
                             </div>
@@ -1106,8 +1183,8 @@
                             <div class="reviews-item swiper-slide">
                                 <div class="reviews-item__contain">
                                     <div class="reviews-item__image">
-                                        <img src="images/content/review-2.png" alt="" />
-                                        <div class="reviews-item__social"><img src="images/icons/fb.png" alt="" /></div>
+                                        <img src="images/content/review-2.png" alt=""/>
+                                        <div class="reviews-item__social"><img src="images/icons/fb.png" alt=""/></div>
                                     </div>
                                     <div class="reviews-item__content">
                                         <div class="reviews-item__title">
@@ -1118,24 +1195,36 @@
                                             <p class="reviews-item__name">Олег Савенко</p>
                                         </div>
                                         <div class="reviews-item__rate">
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <img src="images/icons/star.png" alt="" />
-                                            <span class="reviews-item__rate--num">5.0 из 5.0</span><br />
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <img src="images/icons/star.png" alt=""/>
+                                            <span class="reviews-item__rate--num">5.0 из 5.0</span><br/>
                                             <span class="reviews-item__rate--title">Оценка услуги</span>
                                         </div>
                                         <div class="reviews-item__text">
-                                            <p>Искусства непременно должно рассматриваться в отношении к эпохе, к исторической современности и в отношении художника к обществу; рассмотрение его жизни, характера также может служить часто уяснению его создания. <span class="desktop">С другой стороны, невозможно упускать из виду и собственно эстетических требований искусства</span></p>
+                                            <p>Искусства непременно должно рассматриваться в отношении к эпохе, к
+                                                исторической современности и в отношении художника к обществу;
+                                                рассмотрение его жизни, характера также может служить часто уяснению его
+                                                создания. <span class="desktop">С другой стороны, невозможно упускать из виду и собственно эстетических требований искусства</span>
+                                            </p>
                                         </div>
                                     </div>
 
                                     <button class="reviews-slider-button-prev">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M8.999,15.542 L2.936,8.501 L8.999,1.454 L7.318,-0.000 L0.001,8.501 L7.318,16.998 L8.999,15.542 Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px">
+                                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                                  d="M8.999,15.542 L2.936,8.501 L8.999,1.454 L7.318,-0.000 L0.001,8.501 L7.318,16.998 L8.999,15.542 Z"/>
+                                        </svg>
                                     </button>
                                     <button class="reviews-slider-button-next">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M0.001,15.542 L6.064,8.501 L0.001,1.454 L1.682,-0.000 L8.999,8.501 L1.682,16.998 L0.001,15.542 Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="17px">
+                                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                                  d="M0.001,15.542 L6.064,8.501 L0.001,1.454 L1.682,-0.000 L8.999,8.501 L1.682,16.998 L0.001,15.542 Z"/>
+                                        </svg>
                                     </button>
                                 </div>
                             </div>
@@ -1172,8 +1261,6 @@
         </div>
     </section>
 </div>
-
-
 
 
 <!-- Footer -->

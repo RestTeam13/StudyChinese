@@ -519,12 +519,16 @@
             <div class="conversation-title__part">
                 <h1 class="conversation-title">Китайский с преподавателем онлайн</h1>
                 <p class="conversation-subtitle">Живая практика языка и комплексная программа обучения</p>
-                <div class="types-menu">
+                <div class="filters__categories">
                     <div class="active-bg"></div>
-                    <div class="types-menu__item">Для взрослых</div>
-                    <div class="types-menu__item">Для детей</div>
-                    <div class="types-menu__item">Для учителей</div>
+                    <span class="active">Главное</span>
+                    <span>Учителя</span>
+                    <span>Методика</span>
+                    <span>Стоимость</span>
+                    <span>Работа у нас</span>
+
                 </div>
+
             </div>
         </div>
         <div class="block block_bg">
@@ -537,18 +541,18 @@
                         <form class="conversation-form">
                             <div class="conversation-form__input-row">
                                 <p class="conversation-form__sticker">Ваше имя</p>
-                                <input type="text" class="conversation-form__input">
+                                <input required type="text" class="conversation-form__input">
                                 <p class="conversation-form__sticker-down">Пожалуйста представьтесь</p>
                             </div>
                             <div class="conversation-form__input-row">
                                 <p class="conversation-form__sticker">Номер телефона</p>
-                                <input type="tel" class="conversation-form__input">
+                                <input required type="tel" class="conversation-form__input">
                                 <p class="conversation-form__sticker-down">Укажите коректно, на этот номер придет
                                     подверждение</p>
                             </div>
                             <div class="conversation-form__input-row">
                                 <p class="conversation-form__sticker">Ваш email</p>
-                                <input type="email" class="conversation-form__input">
+                                <input required type="email" class="conversation-form__input">
 
                             </div>
                             <button class="conversation-form__btn btn__purple">Записаться</button>
@@ -964,7 +968,7 @@
                         <p class="conversation-select__row-text">Детям</p>
                     </div>
                 </div>
-                <div class="useful-block__row useful-block__row_adult">
+                <div class="useful-block__row active">
                     <div class="useful-block__items">
                         <div class="useful-block__item">
                             <div class="conversation-useful__img">
@@ -1743,6 +1747,7 @@
 <script defer src="js/jquery.fancybox.min.js"></script>
 <script defer src="js/bodyScrollLock.min.js"></script>
 <script defer src="js/tools.js"></script>
+<script defer src="js/toolsFastik.js"></script>
 
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=PT+Sans&family=PT+Sans+Caption&display=swap&subset=cyrillic-ext"
       rel="stylesheet">

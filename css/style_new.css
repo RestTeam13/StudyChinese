@@ -22040,8 +22040,8 @@
   flex-flow: column;
   align-items: center;
 }
-.conversation-title__part .types-menu {
-  margin-top: 32px;
+.conversation-title__part .filters__categories {
+  margin: 32px 0;
 }
 
 .conversation-title {
@@ -22731,6 +22731,10 @@
 .conversation-club .conversation-select__element:hover {
   border: 3px solid #b168ad;
 }
+.conversation-club .conversation-select__element.active {
+  color: #a1409b;
+  border: 3px solid #b168ad;
+}
 .conversation-club .useful-block__items {
   position: relative;
   z-index: 2;
@@ -22740,6 +22744,10 @@
   position: relative;
   width: 100%;
   margin-top: 50px;
+  display: none;
+}
+.conversation-club .useful-block__row.active {
+  display: unset;
 }
 .conversation-club .useful-block__image {
   width: 921px;

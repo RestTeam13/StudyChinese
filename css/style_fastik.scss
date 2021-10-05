@@ -1173,10 +1173,10 @@
   flex-flow: column;
   align-items: center;
 
-  .types-menu {
-    margin-top: 32px;
-
+  .filters__categories {
+    margin: 32px 0;
   }
+
 }
 
 .conversation-title {
@@ -1955,6 +1955,10 @@
       border: 3px solid #b168ad;
 
     }
+    &.active {
+      color: #a1409b;
+      border: 3px solid #b168ad;
+    }
   }
   .useful-block__items {
     position: relative;
@@ -1965,6 +1969,10 @@
     position: relative;
     width: 100%;
     margin-top: 50px;
+    display: none;
+    &.active {
+      display: unset;
+    }
   }
   .useful-block__image {
     width: 921px;

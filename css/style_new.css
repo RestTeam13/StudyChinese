@@ -20972,6 +20972,1400 @@
   width: 100%;
 }
 
+.teacher-office {
+  display: flex;
+}
+
+.teacher-office__left {
+  width: 25%;
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 5px 46px 0px rgba(5, 22, 26, 0.06);
+}
+
+.teacher-office__user {
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.teacher-office-avatar-settings {
+  position: absolute;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0px 6px 13px 0px rgba(4, 14, 24, 0.24);
+  width: 29px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 2px;
+  right: 6px;
+  cursor: pointer;
+  border: none;
+}
+.teacher-office-avatar-settings:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #7e7d86;
+  -webkit-mask-image: url(../images/settings.png);
+}
+.teacher-office-avatar-settings:hover:before {
+  background-color: #8c6fca;
+}
+
+.teacher-office-avatar-settings-img {
+  width: 15px;
+  height: 15px;
+}
+
+.personal-account-profile__user-avatar_teacher-office {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.personal-account-profile__user-level-office {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.personal-account-profile__user-level-text-office {
+  margin-bottom: 10px;
+  padding: 10px 40px;
+}
+
+.personal-account-profile__user-level-text_bold-office {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.846;
+  text-align: left;
+  padding: 0;
+  display: inline-block;
+  border-bottom: 1px solid #bcdcb2;
+  position: relative;
+}
+
+.personal-account-profile__user-level-text_bold-office:before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  width: 10px;
+  height: 7px;
+  background: #008000;
+  -webkit-mask: url(../images/arrow-done.svg) center no-repeat;
+  -webkit-mask-size: contain;
+  top: 8px;
+}
+
+.personal-account-profile__user-title-office {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.teacher-office__left-check {
+  text-decoration: none;
+  font-size: 13px;
+  color: #c24973;
+  font-weight: bold;
+  line-height: 2;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #efcad6;
+  background-color: rgba(249, 250, 252, 0);
+  padding: 5px 20px;
+}
+
+.teacher-office__left-user-line-one {
+  background-color: #f2f4f5;
+  position: absolute;
+  top: 340px;
+  width: 219px;
+  height: 1px;
+  border: 0;
+}
+
+.teacher-office__menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.teacher-office__menu-text {
+  font-size: 20px;
+  color: #4b465a;
+  font-weight: bold;
+  line-height: 3;
+  padding-left: 25px;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  border-left: 2px solid transparent;
+}
+.teacher-office__menu-text:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #7e7d86;
+  -webkit-mask-size: contain;
+  display: inline;
+  margin-right: 12px;
+  -webkit-mask: center no-repeat;
+}
+
+.teacher-office__menu-text_lessons:before {
+  -webkit-mask-image: url(../images/lesson.png);
+}
+
+.teacher-office__menu-text_task span {
+  border-radius: 50%;
+  background-color: #dadfe3;
+  margin-left: 10px;
+  width: 17px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-family: "Nunito";
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+}
+.teacher-office__menu-text_task:before {
+  -webkit-mask-image: url(../images/task.png);
+}
+
+.teacher-office__menu-text_messages span {
+  border-radius: 50%;
+  background-color: #954090;
+  margin-left: 10px;
+  width: 17px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-family: "Nunito";
+  color: white;
+  font-weight: bold;
+}
+.teacher-office__menu-text_messages:before {
+  -webkit-mask-image: url(../images/messages.png);
+}
+
+.teacher-office__menu-text_settings:before {
+  -webkit-mask-image: url(../images/settings.png);
+}
+
+.teacher-office__menu-text_active {
+  background: #f5f9fb;
+  border-left: 2px solid #0078c3;
+}
+.teacher-office__menu-text_active span {
+  border-radius: 50%;
+  background-color: #954090;
+  margin-left: 10px;
+  width: 17px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-family: "Nunito";
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+}
+.teacher-office__menu-text_active:before {
+  background-color: #54bcee;
+}
+
+.teacher-office__menu-text:hover {
+  background: #f5f9fb;
+  border-left: 2px solid #0078c3;
+}
+.teacher-office__menu-text:hover:before {
+  background-color: #54bcee;
+}
+
+.teacher-office__left-user-line-two {
+  background-color: #f2f4f5;
+  position: absolute;
+  top: 650px;
+  width: 219px;
+  height: 1px;
+  border: 0;
+}
+
+.teacher-office__balance {
+  padding-top: 60px;
+}
+
+.teacher-office__balance-title {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.teacher-office__balance-bring-out-text {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.846;
+  text-align: left;
+  color: #569842;
+  border-color: #bcdcb2;
+}
+
+.teacher-office__balance-now {
+  border-radius: 23px;
+  border: 1px solid #cbe2cc;
+  margin-top: 15px;
+  padding: 5px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.teacher-office__balance-now-number {
+  display: flex;
+  flex-flow: column;
+  font-size: 11px;
+  font-family: "Nunito";
+  color: #8a8793;
+  font-weight: bold;
+}
+.teacher-office__balance-now-number span {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.176;
+  text-align: left;
+  color: #008000;
+}
+
+.teacher-office__balance-now-text {
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.teacher-office__balance-receipts {
+  padding-top: 20px;
+}
+
+.teacher-office__balance-receipts-number {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #4b465a;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.teacher-office__balance-receipts-number:before {
+  content: url(../images/content/arrow_table.svg);
+  margin-right: 5px;
+}
+
+.teacher-office__balance-receipts-number_zero:before {
+  content: url(../images/content/arrow-table_red.svg);
+}
+
+.teacher-office__balance-receipts-text {
+  font-size: 11px;
+  font-family: "Nunito";
+  font-weight: bold;
+  color: #8a8793;
+  padding-left: 20px;
+}
+
+.teacher-office__left-user-line-three {
+  background-color: #f2f4f5;
+  position: absolute;
+  top: 860px;
+  width: 219px;
+  height: 1px;
+  border: 0;
+}
+
+.teacher-office__help {
+  margin: 50px 10px;
+}
+
+.teacher-office__help-img {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.teacher-office__help-text {
+  padding-left: 12px;
+  border: none;
+}
+
+.teacher-office__right {
+  width: 75%;
+  padding-left: 25px;
+}
+
+.teacher-office__finance {
+  font-size: 60px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+}
+
+.teacher-office__balance_right {
+  padding-top: 0;
+  display: flex;
+}
+
+.teacher-office__balance-title-now {
+  font-size: 24px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.teacher-office__balance-now-number_right {
+  padding-right: 35px;
+}
+
+.teacher-office__balance-now-right {
+  margin-right: 300px;
+}
+
+.teacher-office__finance-notifications {
+  display: flex;
+  align-items: center;
+}
+
+.teacher-office__finance-notifications-img {
+  width: 16px;
+  height: 16px;
+  padding-top: 10px;
+}
+
+.teacher-office__bell {
+  border-radius: 50%;
+  background-color: #dbe0e3;
+  width: 17px;
+  height: 16px;
+  font-size: 10px;
+  font-family: "Nunito";
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-account-graph__graphs {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 130px;
+}
+
+.personal-account-graph__graphs_earned .personal-account-graph__graphs-meaning-line {
+  background-color: #4eb652;
+}
+
+.personal-account-graph__graphs-meaning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 3.3%;
+}
+
+.personal-account-graph__graphs-meaning-number {
+  font-size: 12px;
+  font-family: "Nunito";
+  color: #a6b0b6;
+  font-weight: bold;
+}
+
+.personal-account-graph__graphs-meaning-line {
+  background-color: #954090;
+  width: 3px;
+}
+
+.personal-account-graph__graphs-meaning-month {
+  font-size: 12px;
+  font-family: "Nunito";
+  color: #a6b0b6;
+  font-weight: bold;
+}
+
+.personal-account-graph__graphs-meaning-date {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+  position: absolute;
+  top: 126px;
+}
+
+.personal-account-graph__office-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.personal-account-graph__title {
+  font-size: 18px;
+  font-family: "Nunito";
+  color: #111115;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.personal-account-graph__office-date {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #4b465a;
+  text-decoration: underline dotted;
+  margin-right: 10px;
+  width: 62px;
+  height: 25px;
+  border: none;
+  background-color: white;
+}
+.personal-account-graph__office-date:hover {
+  border-radius: 23px;
+  background-color: #ebeff1;
+  width: 62px;
+  height: 25px;
+  font-size: 14px;
+  color: #111115;
+  font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.personal-account-graph__office-lessons {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #954090;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 195px;
+}
+
+.personal-account-graph__container_office {
+  background-size: auto;
+  height: 150px;
+  background-image: url("../images/content/graph-table.svg");
+  padding: 0 16px;
+}
+
+.personal-account-graph__container_office-earned {
+  padding: 0 38px;
+}
+
+.personal-account-graph__graphs-meaning-number_earned {
+  -webkit-transform: rotate(-90deg);
+  margin-bottom: 18px;
+  width: max-content;
+}
+
+.personal-account-graph__office-date_week {
+  width: 100px;
+  height: 25px;
+}
+.personal-account-graph__office-date_week:hover {
+  width: 100px;
+}
+
+.personal-account-graph__office-lessons_many {
+  color: #349138;
+}
+
+.personal-account__text_title_office {
+  font-size: 20px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+.table_teacher-office .row-purchase {
+  width: 20%;
+}
+.table_teacher-office .row-referral {
+  width: 17%;
+}
+
+.table-title_office {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: black;
+  font-weight: bold;
+}
+
+.row-referral_office-date {
+  padding-left: 27px;
+}
+
+.table-row_teacher-office {
+  background-color: #eff0f0;
+}
+
+.row-name_office-conclusion {
+  color: #d25078;
+}
+
+.row-name_office {
+  font-size: 15px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+}
+
+.row-referral_office {
+  font-size: 15px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.row-purchase_office {
+  font-size: 15px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+}
+
+.row-bonus_office {
+  font-size: 15px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+}
+
+.table-row_write-off_teacher-office {
+  background-color: #ffffff;
+}
+
+.row-name_flex-end-span_office {
+  padding-left: 20px;
+}
+
+.row-name_flex-end-span_office-conclusion {
+  padding-left: 20px;
+  font-size: 15px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+}
+
+.tariff-check-out__form-element_short-teacher-office {
+  position: relative;
+}
+
+.tariff-check-out__form-rub {
+  position: absolute;
+  right: 10px;
+  bottom: 28px;
+  color: #36a9e0;
+}
+
+.tariff-check-out__card-row-teacher-office {
+  width: 85%;
+}
+
+.tariff-check-out__form-row_label-short_teacher-office {
+  padding-right: 25px;
+}
+
+.teaching-methods {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media (max-width: 767px) {
+  .teaching-methods {
+    margin-top: 30px;
+  }
+}
+
+.teaching-methods__title {
+  font-size: 85px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .teaching-methods__title {
+    font-size: 27px;
+  }
+}
+
+.teaching-methods__course {
+  font-size: 28px;
+  font-family: "Nunito";
+  color: #2c2c38;
+}
+
+.start-training {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.start-training-background {
+  position: absolute;
+  z-index: -1;
+  top: 42px;
+}
+@media (max-width: 767px) {
+  .start-training-background {
+    width: 767px;
+    height: 255px;
+  }
+}
+
+.start-training__img {
+  width: 465px;
+  height: 246px;
+}
+@media (max-width: 767px) {
+  .start-training__img {
+    width: 221px;
+    height: 116px;
+  }
+}
+
+.start-training__activity {
+  font-size: 18px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+  width: 70%;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+@media (max-width: 767px) {
+  .start-training__activity {
+    font-size: 14px;
+    width: unset;
+  }
+}
+
+.start-training__button {
+  font-size: 18px;
+  font-family: "Nunito";
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #28aae2;
+  width: 256px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 63px;
+}
+@media (max-width: 767px) {
+  .start-training__button {
+    width: 320px;
+    height: 44px;
+  }
+}
+
+.choice {
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.choice__button {
+  font-size: 20px;
+  font-family: "Nunito";
+  color: #8a8793;
+  font-weight: 800;
+  border: 3px solid #e7ebee;
+  border-radius: 10px;
+  background-color: white;
+  width: 256px;
+  height: 65px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.choice__button:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background: url("") no-repeat;
+  padding-left: 15px;
+}
+@media (max-width: 767px) {
+  .choice__button {
+    font-size: 15px;
+    border-width: 2px;
+    width: 156px;
+    height: 44px;
+    margin-right: 13px;
+  }
+  .choice__button:before {
+    width: 24px;
+    height: 24px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.choice__button_active {
+  border-color: #b168ad;
+  color: #b168ad;
+}
+
+.choice__button_adults:before {
+  background-image: url("../images/content/teacher-office/choice-adult-panda.png");
+}
+
+.choice__button_children:before {
+  background-image: url("../images/content/teacher-office/choice-children-panda.png");
+}
+
+.adult-education {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 43px;
+}
+@media (max-width: 767px) {
+  .adult-education {
+    padding-bottom: 5px;
+  }
+}
+
+.adult-education__text {
+  font-size: 22px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+  padding-left: 100px;
+  width: 70%;
+}
+.adult-education__text span {
+  font-size: 30px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+  display: block;
+}
+@media (max-width: 767px) {
+  .adult-education__text {
+    font-size: 14px;
+    padding-left: 26px;
+  }
+  .adult-education__text span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .adult-education__img {
+    width: 70px;
+    height: 90px;
+  }
+}
+
+.information {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-content-block {
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  border: 2px solid #f0f1f2;
+  border-radius: 30px;
+  background-color: white;
+  width: 47%;
+  margin: 10px;
+  flex-direction: column;
+  padding: 50px 19px 50px 105px;
+}
+@media (max-width: 767px) {
+  .info-content-block {
+    border-color: #f0f1f2;
+    border-radius: 25px;
+    width: 324px;
+    padding: 20px 11px 30px 28px;
+    flex-flow: wrap;
+    align-items: center;
+  }
+}
+
+.info-content-block__img {
+  position: absolute;
+  top: 40px;
+  left: 18px;
+}
+@media (max-width: 767px) {
+  .info-content-block__img {
+    height: 42px;
+    position: unset;
+    width: 35px;
+  }
+}
+
+.info-content-block__img_hourglass {
+  left: 45px;
+}
+@media (max-width: 767px) {
+  .info-content-block__img_hourglass {
+    width: 21px;
+    height: 37px;
+  }
+}
+
+.info-content-block__title {
+  font-size: 30px;
+  font-family: "Nunito";
+  color: #954090;
+  font-weight: 800;
+  line-height: 1;
+}
+@media (max-width: 767px) {
+  .info-content-block__title {
+    font-size: 20px;
+    width: 79%;
+    margin-left: 18px;
+  }
+}
+
+.info-content-block__text {
+  font-size: 15px;
+  font-family: "PTSans";
+  color: #4b465a;
+  line-height: 1.467;
+  margin-top: 15px;
+}
+@media (max-width: 767px) {
+  .info-content-block__text {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
+
+.easy-learning {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.easy-learning__title {
+  font-size: 55px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .easy-learning__title {
+    font-size: 27px;
+    margin-top: -45px;
+    margin-bottom: -30px;
+  }
+}
+
+.info-content-block_training {
+  border: none;
+  height: 100%;
+  padding-top: 0;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .info-content-block_training {
+    padding: 0;
+  }
+}
+
+.info-content-block__text_training {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+@media (max-width: 767px) {
+  .info-content-block__text_training {
+    font-size: 14px;
+  }
+}
+
+.info-content-block_training_line {
+  background-color: #e5eaec;
+  width: 254px;
+  height: 1px;
+}
+@media (max-width: 767px) {
+  .info-content-block_training_line {
+    margin-top: 25px;
+  }
+}
+
+.info-content-block__img_training {
+  top: -5px;
+}
+
+.games-chinese__text {
+  font-size: 13px;
+  font-family: "Nunito";
+  color: #8a8793;
+  font-weight: bold;
+  line-height: 1.692;
+  border: none;
+  margin-right: 4px;
+}
+
+.try-training-manual {
+  max-width: 100%;
+}
+
+.info-content-block__text_children {
+  padding-right: 30px;
+}
+@media (max-width: 767px) {
+  .info-content-block__text_children {
+    font-size: 14px;
+    font-family: "PTSans";
+    color: #4b465a;
+    line-height: 1;
+  }
+}
+
+.info-content-block__img_sensitive-teachers {
+  left: 8px;
+}
+@media (max-width: 767px) {
+  .info-content-block__img_sensitive-teachers {
+    top: 7px;
+    left: 26px;
+  }
+}
+
+.point {
+  display: flex;
+  padding-top: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 103%;
+}
+
+.point__img {
+  padding-right: 8px;
+}
+
+.personal-account-profile__user-level-text-office_club-balance {
+  padding: 6px 60px;
+}
+
+.personal-account-profile__user-level-text_bold-office_club-balancebefore {
+  content: none;
+}
+
+.teacher-office__left-check_club-balance {
+  color: #66a053;
+  border-color: #e1ecd1;
+  background-color: rgba(249, 250, 252, 0);
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.teacher-office__left-check_club-balance:after {
+  content: "";
+  width: 4px;
+  height: 8px;
+  background: #81b56f;
+  display: block;
+  -webkit-mask: url(../images/content/arrow_for_button.svg) center no-repeat;
+  -webkit-mask-size: contain;
+  margin: 0px 0px 0px 10px;
+}
+.teacher-office__left-check_club-balance:hover {
+  border-color: #66a053;
+  color: #FFFFFF;
+  background-color: #e1ecd1;
+}
+
+.personal-account-profile__user-level-text_bold-office:before {
+  display: none;
+}
+
+.point__img {
+  width: 20px;
+  height: 20px;
+}
+
+.point__score {
+  font-size: 15px;
+  font-family: "Nunito";
+  color: #111014;
+  font-weight: 800;
+}
+
+.teacher-office__left-user-line-one_club-balance {
+  margin-top: 30px;
+}
+
+.teacher-office__menu_club-balance {
+  padding-bottom: 45px;
+}
+
+.conversational-club-balance {
+  padding-left: 30px;
+  width: 75%;
+}
+@media (max-width: 767px) {
+  .conversational-club-balance {
+    padding: 40px 0 0 0;
+    width: 100%;
+  }
+}
+
+.club-balance-help {
+  padding-left: 22px;
+}
+
+.heading-recording {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recording-lessons__quantity {
+  font-size: 60px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: 800;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .recording-lessons__quantity {
+    font-size: 27px;
+  }
+}
+
+.recording-lessons__date {
+  font-size: 15px;
+  font-family: "Nunito";
+  color: #919193;
+  line-height: 1.2;
+}
+@media (max-width: 767px) {
+  .recording-lessons__date {
+    display: none;
+  }
+}
+
+.recording-lessons__record {
+  background-color: #954090;
+  font-size: 15px;
+  font-family: "Nunito";
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 13px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+}
+@media (max-width: 767px) {
+  .recording-lessons__record {
+    font-size: 14px;
+    padding: 5px 23px;
+  }
+}
+.recording-lessons__record:after {
+  content: "";
+  width: 4px;
+  height: 8px;
+  background: #FFFFFF;
+  display: block;
+  -webkit-mask: url(../images/content/arrow_for_button.svg) center no-repeat;
+  -webkit-mask-size: contain;
+  margin: 2px 0px 0 11px;
+}
+.recording-lessons__record:hover {
+  color: #954090;
+  background-color: #FFFFFF;
+}
+.recording-lessons__record:hover:after {
+  background-color: #954090;
+}
+
+.recording-lessons__line {
+  background-color: #e6e6e6;
+  width: 821px;
+  margin: 12px 0 35px 0;
+  height: 1px;
+}
+@media (max-width: 767px) {
+  .recording-lessons__line {
+    display: none;
+  }
+}
+
+.tariff-plan {
+  border-radius: 20px;
+  background-color: #e9f7fe;
+  width: 97%;
+  margin: 0 0 50px 20px;
+}
+@media (max-width: 767px) {
+  .tariff-plan {
+    border-radius: 15px;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.tariff-plan__popular {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d7e8f1;
+}
+@media (max-width: 767px) {
+  .tariff-plan__popular {
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.popular__panda {
+  position: relative;
+  top: -10px;
+  margin: 0 12px 0 38px;
+}
+@media (max-width: 767px) {
+  .popular__panda {
+    width: 38px;
+    height: 35px;
+    top: 0px;
+    right: -6px;
+    margin: 0;
+  }
+}
+
+.popular__text {
+  font-size: 20px;
+  font-family: "Nunito";
+  color: #28aae1;
+  font-weight: 800;
+  margin-right: 150px;
+}
+@media (max-width: 767px) {
+  .popular__text {
+    font-size: 14px;
+    margin: 0;
+    width: 44%;
+  }
+}
+
+.popular__accrue {
+  background-color: #36a9e0;
+  width: 139px;
+  border: none;
+  height: 41px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-family: "Nunito";
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #36a9e0;
+}
+@media (max-width: 767px) {
+  .popular__accrue {
+    font-size: 13px;
+    border-radius: 15px;
+    width: 99px;
+    height: 30px;
+  }
+}
+.popular__accrue:hover {
+  color: #36a9e0;
+  background-color: #FFFFFF;
+}
+
+.personal-account-profile__user-level-text_no-arrow:before {
+  display: none;
+}
+
+.tariff-plan__cost {
+  display: flex;
+}
+@media (max-width: 767px) {
+  .tariff-plan__cost {
+    flex-flow: wrap;
+  }
+}
+
+.cost {
+  margin-left: 50px;
+  padding: 20px 20px 20px 0px;
+}
+@media (max-width: 767px) {
+  .cost {
+    width: 42%;
+    margin: 0;
+    padding: 10px 0px 0 20px;
+    border-bottom: 1px solid #d7e8f1;
+  }
+}
+
+.cost_left {
+  border-right: 1px solid #d7e8f1;
+}
+@media (max-width: 767px) {
+  .cost_left {
+    width: 43%;
+    margin: 0;
+    padding: 10px 0 0 25px;
+    height: 50px;
+    border-bottom: 1px solid #d7e8f1;
+  }
+}
+
+.cost__amount {
+  font-size: 30px;
+  font-family: "Nunito";
+  color: #28aae1;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .cost__amount {
+    font-size: 20px;
+  }
+}
+
+.cost__for-one-lesson {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .cost__for-one-lesson {
+    font-size: 11px;
+  }
+}
+
+.cost__total-lessons {
+  font-size: 30px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .cost__total-lessons {
+    font-size: 20px;
+  }
+}
+
+.cost__remained-lessons {
+  font-size: 12px;
+  font-family: "Nunito";
+  color: #727881;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .cost__remained-lessons {
+    font-size: 11px;
+  }
+}
+
+.certain-kind {
+  margin: 25px 0 0 100px;
+  display: flex;
+}
+@media (max-width: 767px) {
+  .certain-kind {
+    margin: 15px 40px;
+  }
+}
+
+.certain-kind__text {
+  font-size: 13px;
+  font-family: "Nunito";
+  color: #242836;
+  font-weight: bold;
+  padding: 7px 5px 0 5px;
+}
+
+.certain-kind__img {
+  width: 30px;
+  height: 30px;
+}
+@media (max-width: 767px) {
+  .certain-kind__img {
+    width: 24px;
+    height: 24px;
+    padding: 0 3px;
+  }
+}
+
+.table-title_club-balance {
+  font-weight: 800;
+}
+
+.table-row_no-arrow:before {
+  content: url("../images/content/сonversational-club-balance/cross.png");
+}
+
+.popup_club-balance {
+  position: absolute;
+}
+
+@media (max-width: 767px) {
+  .teacher-office__left_club-balance {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .table_club-balance .row-referral {
+    display: unset;
+  }
+  .table_club-balance .table-title {
+    display: flex;
+    padding: 0;
+  }
+  .table_club-balance .row-name_club-balance {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    font-weight: 800;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .row-bonus_club-balance {
+    display: none;
+  }
+}
+
 .start {
   display: flex;
   flex-flow: column;

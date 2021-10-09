@@ -22203,6 +22203,9 @@
   color: #2c2c38;
   margin: 2px 0;
 }
+.conversation-form__input::placeholder {
+  color: black;
+}
 @media (max-width: 767px) {
   .conversation-form__input {
     font-size: 15px;
@@ -22407,11 +22410,15 @@
     margin-left: 0;
   }
 }
+.conversation-select__checkbox-column:first-child {
+  min-width: 249px;
+}
 @media (max-width: 767px) {
   .conversation-select__checkbox-column:first-child {
     flex-flow: row;
     align-items: center;
     margin-bottom: 10px;
+    min-width: unset;
   }
 }
 
@@ -22443,10 +22450,26 @@
   }
 }
 
+.popup-settings__radio_conversation {
+  width: 27px;
+  height: 27px;
+  margin-right: unset;
+}
+@media (max-width: 767px) {
+  .popup-settings__radio_conversation {
+    width: 20px;
+    height: 20px;
+  }
+  .popup-settings__radio_conversation:checked {
+    border: 5px solid #964191;
+  }
+}
+
 .conversation-select__checkbox-text {
   margin-left: 13px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 19px;
+  letter-spacing: -1px;
 }
 @media (max-width: 767px) {
   .conversation-select__checkbox-text {

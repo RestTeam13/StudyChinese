@@ -541,18 +541,18 @@
                         <form class="conversation-form">
                             <div class="conversation-form__input-row">
                                 <p class="conversation-form__sticker no-mobile">Ваше имя</p>
-                                <input required type="text" class="conversation-form__input">
+                                <input required type="text" class="conversation-form__input" value="Денис" placeholder="Ваше имя">
                                 <p class="conversation-form__sticker-down">Пожалуйста представьтесь</p>
                             </div>
                             <div class="conversation-form__input-row">
                                 <p class="conversation-form__sticker no-mobile">Номер телефона</p>
-                                <input required type="tel" class="conversation-form__input">
+                                <input required type="tel" class="conversation-form__input" value="+7  (        )  ___-____-____" placeholder="Номер телефона">
                                 <p class="conversation-form__sticker-down">Укажите коректно, на этот номер придет
                                     подверждение</p>
                             </div>
                             <div class="conversation-form__input-row">
                                 <p class="conversation-form__sticker no-mobile">Ваш email</p>
-                                <input required type="email" class="conversation-form__input">
+                                <input required type="email" class="conversation-form__input" value="info@gmail.com" placeholder="Ваш email">
 
                             </div>
                             <button class="conversation-form__btn btn__purple">Записаться</button>
@@ -613,14 +613,14 @@
                     <div class="conversation-select__checkbox-column">
                         <p class="conversation-form__sticker">Время занятия</p>
                         <div class="conversation-select__checkbox-row">
-                            <div class="conversation-select__checkbox-block">
-                                <input type="checkbox" class="conversation-select__checkbox">
+                            <label class="conversation-select__checkbox-block">
+                                <input type="radio" class="radio popup-settings__radio popup-settings__radio_conversation" name="radio" checked="">
                                 <p class="conversation-select__checkbox-text">30 минут</p>
-                            </div>
-                            <div class="conversation-select__checkbox-block">
-                                <input type="checkbox" class="conversation-select__checkbox">
+                            </label>
+                            <label class="conversation-select__checkbox-block">
+                                <input type="radio" class="radio popup-settings__radio popup-settings__radio_conversation" name="radio" checked="">
                                 <p class="conversation-select__checkbox-text">60 минут</p>
-                            </div>
+                            </label>
                         </div>
                     </div>
                     <div class="conversation-select__checkbox-column">

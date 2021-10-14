@@ -21709,7 +21709,7 @@
   width: 40px;
   height: 40px;
   background-size: contain;
-  background: url("") no-repeat;
+  background: url "" no-repeat;
   padding-left: 15px;
 }
 @media (max-width: 767px) {
@@ -22325,14 +22325,6 @@
   }
 }
 
-.table-title_club-balance {
-  font-weight: 800;
-}
-
-.table-row_no-arrow:before {
-  content: url("../images/content/сonversational-club-balance/cross.png");
-}
-
 .popup_club-balance {
   position: absolute;
 }
@@ -22343,25 +22335,136 @@
   }
 }
 
+.table-payment {
+  width: 100%;
+}
+
+.table-payment__title-row {
+  display: flex;
+}
+
+.table-payment__content-row {
+  display: flex;
+  border-radius: 4px;
+  background-color: #f0f3f5;
+  width: 823px;
+  height: 50px;
+  align-items: center;
+}
 @media (max-width: 767px) {
-  .table_club-balance .row-referral {
-    display: unset;
+  .table-payment__content-row {
+    width: 321px;
+    height: 80px;
   }
-  .table_club-balance .table-title {
-    display: flex;
-    padding: 0;
+}
+
+.table-payment__payment-number {
+  width: 31%;
+  display: flex;
+  padding: 0 0 0 37px;
+}
+@media (max-width: 767px) {
+  .table-payment__payment-number {
+    width: 69%;
+    padding: 0 0 0 0px;
+    flex-direction: column;
   }
-  .table_club-balance .row-name_club-balance {
-    display: flex;
-    width: 100%;
-    padding: 0;
-    font-weight: 800;
+}
+
+.table-payment__payment-date {
+  width: 15%;
+}
+@media (max-width: 767px) {
+  .table-payment__payment-date {
+    width: 46%;
+  }
+}
+
+.table-payment__amount {
+  width: 18%;
+}
+@media (max-width: 767px) {
+  .table-payment__amount {
+    width: 0%;
+  }
+}
+
+.table-payment__payment-details {
+  width: 36%;
+}
+@media (max-width: 767px) {
+  .table-payment__payment-details {
+    width: 30%;
+  }
+}
+
+.table-payment__title-text {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: black;
+  font-weight: 800;
+}
+@media (max-width: 767px) {
+  .table-payment__title-text {
     font-size: 12px;
   }
 }
 
+.table-payment__content-text {
+  font-size: 15px;
+  font-family: "Nunito";
+  color: #2c2c38;
+  font-weight: bold;
+}
 @media (max-width: 767px) {
-  .row-bonus_club-balance {
+  .table-payment__content-text {
+    font-size: 12px;
+    padding: 0 0 0 36px;
+  }
+}
+
+.table-payment__content-text__number {
+  margin: 0 0 0 30px;
+}
+@media (max-width: 767px) {
+  .table-payment__content-text__number {
+    margin: 0 0 0 16px;
+    padding: 0 0 0 0;
+  }
+}
+
+.table-payment__content-text_arrow:before {
+  content: "";
+  -webkit-mask: url(../images/content/сonversational-club-balance/arrow.png) center no-repeat;
+  -webkit-mask-size: contain;
+  width: 8px;
+  height: 8px;
+  background: #81b56f;
+  display: block;
+  margin: 3px 0px -12px -19px;
+}
+
+.table-payment__content-text_cross {
+  color: #d25078;
+}
+.table-payment__content-text_cross:after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #d7698b;
+  display: block;
+  -webkit-mask: url(../images/content/сonversational-club-balance/cross.png) center no-repeat;
+  -webkit-mask-size: contain;
+  margin: -14px 0px -12px -19px;
+}
+@media (max-width: 767px) {
+  .table-payment__content-text_cross {
+    padding: 0px 0px 15px 36px;
+  }
+}
+
+@media (max-width: 767px) {
+  .table-payment__title-text_details {
     display: none;
   }
 }
